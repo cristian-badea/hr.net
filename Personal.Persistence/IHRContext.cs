@@ -6,10 +6,11 @@ namespace Personal.Persistence
     public interface IHrContext
     {
         DbSet<Job> Jobs { get; }
+        
         DbSet<Location> Locations { get; }
         DbSet<Department> Departments { get; }
-        DbSet<Employee> Employees { get; }
-
+       // DbSet<Employee> Employees { get; }
+        
         int SaveChanges();
     }
 }

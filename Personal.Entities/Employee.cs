@@ -4,6 +4,7 @@ namespace Personal.Entities
 {
     public class Employee
     {
+        //configurati controlere, teste la toate, migrari ,adaugati la context , faceti contexte care il folosesc,  . 1 saptamana
         public int EmployeeId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
