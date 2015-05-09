@@ -13,7 +13,7 @@ namespace Personal.Tests
     {
         public void CanAddLocation()
         {
-            using(var context = new HrDbContext())
+            using (var context = new HrDbContext())
             {
 
                 var location = new Location
@@ -25,6 +25,7 @@ namespace Personal.Tests
                 };
 
                 context.Locations.Add(location);
+
                 context.SaveChanges();
 
                 //get

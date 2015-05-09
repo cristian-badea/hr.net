@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DepartmentsTests.cs" />
+    <Compile Include="EmployeesTests.cs" />
     <Compile Include="InMemoryHrContextTests.cs" />
     <Compile Include="JobsTests.cs" />
     <Compile Include="LocationTests.cs" />

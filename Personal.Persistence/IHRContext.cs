@@ -9,7 +9,7 @@ namespace Personal.Persistence
         
         DbSet<Location> Locations { get; }
         DbSet<Department> Departments { get; }
-       // DbSet<Employee> Employees { get; }
+        DbSet<Employee> Employees { get; }
         
         int SaveChanges();
     }

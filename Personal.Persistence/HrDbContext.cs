@@ -13,6 +13,7 @@ namespace Personal.Persistence
         public DbSet<Entities.Job> Jobs { get; set; }
         public DbSet<Entities.Location> Locations { get; set; }
         public DbSet<Entities.Department> Departments { get; set; }
+        public DbSet<Entities.Employee> Employees { get; set; }
 
         public HrDbContext() : base("Personal")
         {

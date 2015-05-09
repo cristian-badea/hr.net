@@ -71,6 +71,22 @@
     <Compile Include="Migrations\201505041408134_RemoveCascadeDelete.Designer.cs">
       <DependentUpon>201505041408134_RemoveCascadeDelete.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201505091921317_CreateEmployees.cs" />
+    <Compile Include="Migrations\201505091921317_CreateEmployees.Designer.cs">
+      <DependentUpon>201505091921317_CreateEmployees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201505091930173_updateEmployeesManagerNullable.cs" />
+    <Compile Include="Migrations\201505091930173_updateEmployeesManagerNullable.Designer.cs">
+      <DependentUpon>201505091930173_updateEmployeesManagerNullable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201505091933272_addForeignKeyJobs.cs" />
+    <Compile Include="Migrations\201505091933272_addForeignKeyJobs.Designer.cs">
+      <DependentUpon>201505091933272_addForeignKeyJobs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201505091946566_UpdateEmployeeWithRestrictions.cs" />
+    <Compile Include="Migrations\201505091946566_UpdateEmployeeWithRestrictions.Designer.cs">
+      <DependentUpon>201505091946566_UpdateEmployeeWithRestrictions.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -93,6 +109,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201505041408134_RemoveCascadeDelete.resx">
       <DependentUpon>201505041408134_RemoveCascadeDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201505091921317_CreateEmployees.resx">
+      <DependentUpon>201505091921317_CreateEmployees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201505091930173_updateEmployeesManagerNullable.resx">
+      <DependentUpon>201505091930173_updateEmployeesManagerNullable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201505091933272_addForeignKeyJobs.resx">
+      <DependentUpon>201505091933272_addForeignKeyJobs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201505091946566_UpdateEmployeeWithRestrictions.resx">
+      <DependentUpon>201505091946566_UpdateEmployeeWithRestrictions.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
