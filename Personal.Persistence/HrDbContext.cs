@@ -15,7 +15,7 @@ namespace Personal.Persistence
         public DbSet<Entities.Department> Departments { get; set; }
         public DbSet<Entities.Employee> Employees { get; set; }
 
-        public HrDbContext() : base("Personal")
+        public HrDbContext() : base("HR")
         {
             this.Configuration.LazyLoadingEnabled = true;
         }
